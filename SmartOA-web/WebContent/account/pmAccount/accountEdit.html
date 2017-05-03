@@ -1,0 +1,61 @@
+<div class="ui-dialog dialog-md">
+<div class="modal-header">
+    <h4 class="modal-title">创建账号页面</h4>
+</div>
+<div class="modal-body">
+			<div class="panel panel-success">
+				<div class="panel-heading">
+				    <h4 class="panel-title"><i class="glyphicon glyphicon-list"></i>创建账号</h4>
+				</div>
+				<div class="panel-body">
+				<form class="form-horizontal" id = "accountEditForm" role="form">
+				  <div class="form-group">
+				    <label class="col-md-2 control-label">账号</label>
+				    <div class="col-md-6">
+				      <input class="form-control" id="account" type="text" placeholder="请输入账号名">
+				    </div>
+				  </div>
+				  <div class="form-group">
+				    <label class="col-md-2 control-label">密码</label>
+				    <div class="col-md-6">
+				      <input class="form-control" id="password" type="{{type ? 'text' : 'password'}}" ng-model="password" placeholder="请输入账号密码">
+				    </div>
+				  </div>
+				  <div class="form-group">
+				    <label class="col-md-2 control-label">确认密码</label>
+				    <div class="col-md-6">
+				      <input class="form-control" id="passwordCheck" type="text" placeholder="请再次输入密码">
+				    </div>
+				  </div>
+			  
+				  <div class="form-group ">
+				    <label class="col-md-2 control-label">启用</label>
+				    <div class="col-md-6">
+				    <input type="checkbox" id="switchOn" value="1">
+				    </div>
+				  </div>
+				  
+				  <div class="form-group">
+				    <label class="col-md-2 control-label">显示名</label>
+				    <div class="col-md-6">
+				      <input type="text" class="form-control" id="displayName">
+				    </div>
+				  </div>
+				  
+				  <div class="form-group ">
+				    <label class="col-md-2 control-label">账号类型</label>
+				    <div class="col-md-6">
+				      <input type="text" class="form-control" id="accountType" placeholder="">
+				    </div>
+				  </div>
+				</form>
+				
+			   <div class = "row col-md-offset-2">
+			   <button type="button" class="btn btn-success" id = "saveBtn" >保存</button>
+			   <button type="button" class="btn btn-success" id = "returnBtn" >返回</button>
+			   </div>
+			</div>
+			</div>
+		
+</div>
+</div>

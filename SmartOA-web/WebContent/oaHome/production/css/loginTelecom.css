@@ -1,0 +1,97 @@
+body>.grid {
+	height: 100%;
+}
+
+.image {
+	margin-top: -100px;
+}
+
+.column {
+	max-width: 450px;
+}
+
+#bgimg {
+	background-color: #005AAF;
+	background-image: url(../../resources/images/login/map.png);
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	opacity: 1; 
+	-webkit-filter: blur(2px);
+	-moz-filter: blur(2px);
+	filter: alpha(opacity = 90);
+	z-index: -1;
+}
+
+.header  .content span {
+	padding-right: 50px
+}
+
+#title {
+	background: rgba(248, 248, 249, 0.1);
+	margin-bottom: 0px
+}
+
+#loginDiv .ui.stacked.segment {
+	margin: 0px;
+	border-radius: 0px;
+}
+
+#loginDiv .ui.stacked.segment, #remarkMsg {
+	margin: 0px;
+	color: white;
+}
+
+#remarkMsg {
+	background: rgba(248, 248, 249, 0.1);
+}
+
+#title  .content {
+	color: white;
+}
+
+#loginDiv {
+	text-align: right;
+	-webkit-align-self: inherit;
+	-ms-flex-item-align: inherit;
+	align-self: inherit;
+	float: right;
+	margin-right: 5%;
+	min-width: 500px;
+	margin-top: 0px;
+}
+
+#loginDiv form, #loginDiv .ui.message {
+	border-radius: 0px;
+}
+
+.headerLogo {
+	background-image: url("../../bsHome/img/logo.png");
+	width: 205px;
+	height: 64px;
+	position: absolute;
+	top: 10px;
+	left: 20px;
+}
+
+.copyright {
+	width: 100%;
+	text-align: center;
+	position: fixed;
+	bottom: 7px;
+	color: white;
+}
+
+#contentDiv {
+	float: left;
+	width: 421px;
+	margin-left: 5%;
+	padding: 30px;
+}
+
+.ui.stacked.segments:before, .ui.stacked.segments:after, .ui.stacked.segment:before,
+	.ui.stacked.segment:after {
+	visibility: hidden;
+}

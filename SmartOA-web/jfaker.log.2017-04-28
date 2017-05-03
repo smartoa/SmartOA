@@ -1,0 +1,419 @@
+2017-04-28 11:17:30,398 [main] INFO  [org.eclipse.jetty.server.Server] - jetty-8.y.z-SNAPSHOT
+2017-04-28 11:17:30,993 [main] INFO  [org.eclipse.jetty.server.handler.ContextHandler] - started o.e.j.w.WebAppContext{/smartOA,file:/C:/workspace/SmartOA-web/WebContent/}
+2017-04-28 11:17:30,993 [main] INFO  [org.eclipse.jetty.server.handler.ContextHandler] - started o.e.j.w.WebAppContext{/smartOA,file:/C:/workspace/SmartOA-web/WebContent/}
+2017-04-28 11:17:30,993 [main] INFO  [/smartOA] - Initializing Shiro environment
+2017-04-28 11:17:30,993 [main] INFO  [org.apache.shiro.web.env.EnvironmentLoader] - Starting Shiro environment initialization.
+2017-04-28 11:17:31,337 [main] INFO  [org.apache.shiro.cache.ehcache.EhCacheManager] - Cache with name 'myRealm.authorizationCache' does not yet exist.  Creating now.
+2017-04-28 11:17:31,337 [main] INFO  [org.apache.shiro.cache.ehcache.EhCacheManager] - Added EhCache named [myRealm.authorizationCache]
+2017-04-28 11:17:31,337 [main] INFO  [org.apache.shiro.config.IniSecurityManagerFactory] - Realms have been explicitly set on the SecurityManager instance - auto-setting of realms will not occur.
+2017-04-28 11:17:31,337 [main] INFO  [org.apache.shiro.web.env.EnvironmentLoader] - Shiro environment initialized in 344 ms.
+2017-04-28 11:17:31,337 [main] INFO  [org.eclipse.jetty.server.handler.ContextHandler] - started o.e.j.w.WebAppContext{/smartOA,file:/C:/workspace/SmartOA-web/WebContent/}
+2017-04-28 11:17:31,368 [main] INFO  [com.mchange.v2.log.MLog] - MLog clients using log4j logging.
+2017-04-28 11:17:31,415 [main] INFO  [com.mchange.v2.c3p0.C3P0Registry] - Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2017-04-28 11:17:31,447 [main] INFO  [com.jfaker.app.ScriptsPlugin] - scripts running......
+2017-04-28 11:17:31,478 [main] INFO  [com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource] - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 2ue7sk9n1djmdtk84m9lz|643cb075, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 2ue7sk9n1djmdtk84m9lz|643cb075, idleConnectionTestPeriod -> 0, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://localhost:3306/snaker?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 20, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 100, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2017-04-28 11:17:31,744 [main] WARN  [org.snaker.engine.helper.ConfigHelper] - No properties file found in the classpath by filename snaker.properties
+2017-04-28 11:17:33,854 [main] INFO  [com.jfaker.app.ScriptsPlugin] - script has completed execution.skip this step
+2017-04-28 11:17:33,886 [main] INFO  [org.snaker.engine.cfg.Configuration] - SnakerEngine start......
+2017-04-28 11:17:39,995 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=org.snaker.jfinal.access.JfinalAccess][clazz=org.snaker.jfinal.access.JfinalAccess]
+2017-04-28 11:17:40,012 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=org.snaker.jfinal.access.JfinalTransactionInterceptor][object=org.snaker.jfinal.access.JfinalTransactionInterceptor@4c6127da]
+2017-04-28 11:17:40,012 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=org.snaker.engine.impl.JuelExpression][clazz=org.snaker.engine.impl.JuelExpression]
+2017-04-28 11:17:40,028 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=com.jfaker.framework.flow.CustomAccessStrategy][clazz=com.jfaker.framework.flow.CustomAccessStrategy]
+2017-04-28 11:17:40,028 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=task][clazz=com.jfaker.framework.flow.ExtTaskParser]
+2017-04-28 11:17:40,043 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=start][clazz=org.snaker.engine.parser.impl.StartParser]
+2017-04-28 11:17:40,043 [main] WARN  [org.snaker.engine.cfg.Configuration] - Duplicate name is:task
+2017-04-28 11:17:40,043 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=custom][clazz=org.snaker.engine.parser.impl.CustomParser]
+2017-04-28 11:17:40,043 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=decision][clazz=org.snaker.engine.parser.impl.DecisionParser]
+2017-04-28 11:17:40,043 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=subprocess][clazz=org.snaker.engine.parser.impl.SubProcessParser]
+2017-04-28 11:17:40,043 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=fork][clazz=org.snaker.engine.parser.impl.ForkParser]
+2017-04-28 11:17:40,043 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=join][clazz=org.snaker.engine.parser.impl.JoinParser]
+2017-04-28 11:17:40,043 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=end][clazz=org.snaker.engine.parser.impl.EndParser]
+2017-04-28 11:17:40,121 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=org.snaker.engine.core.ManagerService][object=org.snaker.engine.core.ManagerService$$EnhancerByCGLIB$$b4b3575c@1c04298e]
+2017-04-28 11:17:40,137 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=org.snaker.engine.core.ProcessService][object=org.snaker.engine.core.ProcessService$$EnhancerByCGLIB$$b8bb7ba6@7619cc1b]
+2017-04-28 11:17:40,168 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=org.snaker.engine.core.QueryService][object=org.snaker.engine.core.QueryService$$EnhancerByCGLIB$$22c60463@451415c8]
+2017-04-28 11:17:40,184 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=org.snaker.engine.core.TaskService][object=org.snaker.engine.core.TaskService$$EnhancerByCGLIB$$1f7ee586@5fda87db]
+2017-04-28 11:17:40,199 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=org.snaker.engine.core.OrderService][object=org.snaker.engine.core.OrderService$$EnhancerByCGLIB$$dd558c81@197ebe66]
+2017-04-28 11:17:40,215 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=org.snaker.engine.core.SnakerEngineImpl][object=org.snaker.engine.core.SnakerEngineImpl$$EnhancerByCGLIB$$9fcc87e0@328990e4]
+2017-04-28 11:17:40,215 [main] INFO  [org.snaker.engine.cfg.Configuration] - SnakerEngine be found:class org.snaker.engine.core.SnakerEngineImpl$$EnhancerByCGLIB$$9fcc87e0
+2017-04-28 11:17:43,012 [main] INFO  [org.eclipse.jetty.server.AbstractConnector] - Started SelectChannelConnector@0.0.0.0:8080
+2017-04-28 11:24:52,165 [qtp2040919865-24] WARN  [com.jfinal.core.ActionHandler] - 404 Action Not Found: /smartOA/pmForm
+2017-04-28 11:34:04,260 [qtp2040919865-27] WARN  [org.eclipse.jetty.servlet.ServletHandler] - /smartOA/form/pmForm/pmForm.jsp
+org.apache.jasper.JasperException: /form/pmForm/pmForm.jsp(12,0) PWC6036: Include action: Mandatory attribute page missing
+	at org.apache.jasper.compiler.DefaultErrorHandler.jspError(DefaultErrorHandler.java:81)
+	at org.apache.jasper.compiler.ErrorDispatcher.dispatch(ErrorDispatcher.java:376)
+	at org.apache.jasper.compiler.ErrorDispatcher.jspError(ErrorDispatcher.java:188)
+	at org.apache.jasper.compiler.JspUtil.checkAttributes(JspUtil.java:330)
+	at org.apache.jasper.compiler.Validator$ValidateVisitor.visit(Validator.java:583)
+	at org.apache.jasper.compiler.Node$IncludeAction.accept(Node.java:1053)
+	at org.apache.jasper.compiler.Node$Nodes.visit(Node.java:2297)
+	at org.apache.jasper.compiler.Node$Visitor.visitBody(Node.java:2347)
+	at org.apache.jasper.compiler.Node$Visitor.visit(Node.java:2353)
+	at org.apache.jasper.compiler.Node$Root.accept(Node.java:499)
+	at org.apache.jasper.compiler.Node$Nodes.visit(Node.java:2297)
+	at org.apache.jasper.compiler.Validator.validate(Validator.java:1882)
+	at org.apache.jasper.compiler.Compiler.generateJava(Compiler.java:223)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:451)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:625)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:374)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:492)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:378)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:669)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1336)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:82)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365)
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90)
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83)
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:383)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:662)
+2017-04-28 11:55:08,927 [main] INFO  [org.eclipse.jetty.server.Server] - jetty-8.y.z-SNAPSHOT
+2017-04-28 11:55:09,527 [main] INFO  [org.eclipse.jetty.server.handler.ContextHandler] - started o.e.j.w.WebAppContext{/,file:/C:/workspace/SmartOA-web/WebContent/}
+2017-04-28 11:55:09,527 [main] INFO  [org.eclipse.jetty.server.handler.ContextHandler] - started o.e.j.w.WebAppContext{/,file:/C:/workspace/SmartOA-web/WebContent/}
+2017-04-28 11:55:09,528 [main] INFO  [/] - Initializing Shiro environment
+2017-04-28 11:55:09,529 [main] INFO  [org.apache.shiro.web.env.EnvironmentLoader] - Starting Shiro environment initialization.
+2017-04-28 11:55:09,831 [main] INFO  [org.apache.shiro.cache.ehcache.EhCacheManager] - Cache with name 'myRealm.authorizationCache' does not yet exist.  Creating now.
+2017-04-28 11:55:09,836 [main] INFO  [org.apache.shiro.cache.ehcache.EhCacheManager] - Added EhCache named [myRealm.authorizationCache]
+2017-04-28 11:55:09,837 [main] INFO  [org.apache.shiro.config.IniSecurityManagerFactory] - Realms have been explicitly set on the SecurityManager instance - auto-setting of realms will not occur.
+2017-04-28 11:55:09,843 [main] INFO  [org.apache.shiro.web.env.EnvironmentLoader] - Shiro environment initialized in 314 ms.
+2017-04-28 11:55:09,843 [main] INFO  [org.eclipse.jetty.server.handler.ContextHandler] - started o.e.j.w.WebAppContext{/,file:/C:/workspace/SmartOA-web/WebContent/}
+2017-04-28 11:55:09,879 [main] INFO  [com.mchange.v2.log.MLog] - MLog clients using log4j logging.
+2017-04-28 11:55:09,927 [main] INFO  [com.mchange.v2.c3p0.C3P0Registry] - Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2017-04-28 11:55:09,948 [main] INFO  [com.jfaker.app.ScriptsPlugin] - scripts running......
+2017-04-28 11:55:09,980 [main] INFO  [com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource] - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 2ue7sk9n1dkyshx1xz87ky|7c19f9d2, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 2ue7sk9n1dkyshx1xz87ky|7c19f9d2, idleConnectionTestPeriod -> 0, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://localhost:3306/snaker?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 20, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 100, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2017-04-28 11:55:10,174 [main] WARN  [org.snaker.engine.helper.ConfigHelper] - No properties file found in the classpath by filename snaker.properties
+2017-04-28 11:55:10,225 [main] INFO  [com.jfaker.app.ScriptsPlugin] - script has completed execution.skip this step
+2017-04-28 11:55:10,232 [main] INFO  [org.snaker.engine.cfg.Configuration] - SnakerEngine start......
+2017-04-28 11:55:10,242 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=org.snaker.jfinal.access.JfinalAccess][clazz=org.snaker.jfinal.access.JfinalAccess]
+2017-04-28 11:55:10,247 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=org.snaker.jfinal.access.JfinalTransactionInterceptor][object=org.snaker.jfinal.access.JfinalTransactionInterceptor@795e0c2b]
+2017-04-28 11:55:10,248 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=org.snaker.engine.impl.JuelExpression][clazz=org.snaker.engine.impl.JuelExpression]
+2017-04-28 11:55:10,256 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=com.jfaker.framework.flow.CustomAccessStrategy][clazz=com.jfaker.framework.flow.CustomAccessStrategy]
+2017-04-28 11:55:10,257 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=task][clazz=com.jfaker.framework.flow.ExtTaskParser]
+2017-04-28 11:55:10,260 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=start][clazz=org.snaker.engine.parser.impl.StartParser]
+2017-04-28 11:55:10,261 [main] WARN  [org.snaker.engine.cfg.Configuration] - Duplicate name is:task
+2017-04-28 11:55:10,261 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=custom][clazz=org.snaker.engine.parser.impl.CustomParser]
+2017-04-28 11:55:10,262 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=decision][clazz=org.snaker.engine.parser.impl.DecisionParser]
+2017-04-28 11:55:10,262 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=subprocess][clazz=org.snaker.engine.parser.impl.SubProcessParser]
+2017-04-28 11:55:10,263 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=fork][clazz=org.snaker.engine.parser.impl.ForkParser]
+2017-04-28 11:55:10,263 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=join][clazz=org.snaker.engine.parser.impl.JoinParser]
+2017-04-28 11:55:10,264 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=end][clazz=org.snaker.engine.parser.impl.EndParser]
+2017-04-28 11:55:10,337 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=org.snaker.engine.core.ManagerService][object=org.snaker.engine.core.ManagerService$$EnhancerByCGLIB$$e1436440@3db158db]
+2017-04-28 11:55:10,357 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=org.snaker.engine.core.ProcessService][object=org.snaker.engine.core.ProcessService$$EnhancerByCGLIB$$e54b888a@4edc024a]
+2017-04-28 11:55:10,378 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=org.snaker.engine.core.QueryService][object=org.snaker.engine.core.QueryService$$EnhancerByCGLIB$$4f561147@45cfd3b2]
+2017-04-28 11:55:10,396 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=org.snaker.engine.core.TaskService][object=org.snaker.engine.core.TaskService$$EnhancerByCGLIB$$4c0ef26a@7621447f]
+2017-04-28 11:55:10,408 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=org.snaker.engine.core.OrderService][object=org.snaker.engine.core.OrderService$$EnhancerByCGLIB$$9e59965@6c43da1b]
+2017-04-28 11:55:10,422 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=org.snaker.engine.core.SnakerEngineImpl][object=org.snaker.engine.core.SnakerEngineImpl$$EnhancerByCGLIB$$cc5c94c4@372943ac]
+2017-04-28 11:55:10,422 [main] INFO  [org.snaker.engine.cfg.Configuration] - SnakerEngine be found:class org.snaker.engine.core.SnakerEngineImpl$$EnhancerByCGLIB$$cc5c94c4
+2017-04-28 11:55:10,542 [main] INFO  [org.eclipse.jetty.server.AbstractConnector] - Started SelectChannelConnector@0.0.0.0:8080
+2017-04-28 11:55:16,641 [qtp2066473405-26] WARN  [com.jfinal.core.ActionHandler] - 404 Action Not Found: /smartOA/oaHome
+2017-04-28 11:57:00,149 [JFinal-Scanner] INFO  [/] - Cleaning up Shiro Environment
+2017-04-28 11:57:00,183 [JFinal-Scanner] INFO  [org.eclipse.jetty.servlet.listener.ELContextCleaner] - Clazz: class org.apache.shiro.web.servlet.ShiroHttpServletRequest loaded by WebAppClassLoader=1352529649@509df6f1
+2017-04-28 11:57:00,183 [JFinal-Scanner] INFO  [org.eclipse.jetty.servlet.listener.ELContextCleaner] - removed
+2017-04-28 11:57:00,183 [JFinal-Scanner] INFO  [org.eclipse.jetty.servlet.listener.ELContextCleaner] - Clazz: class org.apache.jasper.runtime.PageContextImpl loaded by WebAppClassLoader=1352529649@509df6f1
+2017-04-28 11:57:00,183 [JFinal-Scanner] INFO  [org.eclipse.jetty.servlet.listener.ELContextCleaner] - removed
+2017-04-28 11:57:00,184 [JFinal-Scanner] INFO  [org.eclipse.jetty.servlet.listener.ELContextCleaner] - javax.el.BeanELResolver purged
+2017-04-28 11:57:00,184 [JFinal-Scanner] INFO  [org.eclipse.jetty.server.handler.ContextHandler] - stopped o.e.j.w.WebAppContext{/,file:/C:/workspace/SmartOA-web/WebContent/}
+2017-04-28 11:57:00,598 [JFinal-Scanner] INFO  [org.eclipse.jetty.server.handler.ContextHandler] - started o.e.j.w.WebAppContext{/,file:/C:/workspace/SmartOA-web/WebContent/}
+2017-04-28 11:57:00,598 [JFinal-Scanner] INFO  [org.eclipse.jetty.server.handler.ContextHandler] - started o.e.j.w.WebAppContext{/,file:/C:/workspace/SmartOA-web/WebContent/}
+2017-04-28 11:57:00,598 [JFinal-Scanner] INFO  [/] - Initializing Shiro environment
+2017-04-28 11:57:00,599 [JFinal-Scanner] INFO  [org.apache.shiro.web.env.EnvironmentLoader] - Starting Shiro environment initialization.
+2017-04-28 11:57:00,784 [JFinal-Scanner] INFO  [org.apache.shiro.cache.ehcache.EhCacheManager] - Cache with name 'myRealm.authorizationCache' does not yet exist.  Creating now.
+2017-04-28 11:57:00,789 [JFinal-Scanner] INFO  [org.apache.shiro.cache.ehcache.EhCacheManager] - Added EhCache named [myRealm.authorizationCache]
+2017-04-28 11:57:00,790 [JFinal-Scanner] INFO  [org.apache.shiro.config.IniSecurityManagerFactory] - Realms have been explicitly set on the SecurityManager instance - auto-setting of realms will not occur.
+2017-04-28 11:57:00,794 [JFinal-Scanner] INFO  [org.apache.shiro.web.env.EnvironmentLoader] - Shiro environment initialized in 195 ms.
+2017-04-28 11:57:00,794 [JFinal-Scanner] INFO  [org.eclipse.jetty.server.handler.ContextHandler] - started o.e.j.w.WebAppContext{/,file:/C:/workspace/SmartOA-web/WebContent/}
+2017-04-28 11:57:00,820 [JFinal-Scanner] INFO  [com.mchange.v2.log.MLog] - MLog clients using log4j logging.
+2017-04-28 11:57:00,849 [JFinal-Scanner] INFO  [com.mchange.v2.c3p0.C3P0Registry] - Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2017-04-28 11:57:00,870 [JFinal-Scanner] INFO  [com.jfaker.app.ScriptsPlugin] - scripts running......
+2017-04-28 11:57:00,898 [JFinal-Scanner] INFO  [com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource] - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 2ue7sk9n1dl163t1oqxfbm|6202bc29, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 2ue7sk9n1dl163t1oqxfbm|6202bc29, idleConnectionTestPeriod -> 0, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://localhost:3306/snaker?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 20, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 100, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2017-04-28 11:57:01,066 [JFinal-Scanner] WARN  [org.snaker.engine.helper.ConfigHelper] - No properties file found in the classpath by filename snaker.properties
+2017-04-28 11:57:01,095 [JFinal-Scanner] INFO  [com.jfaker.app.ScriptsPlugin] - script has completed execution.skip this step
+2017-04-28 11:57:01,109 [JFinal-Scanner] INFO  [org.snaker.engine.cfg.Configuration] - SnakerEngine start......
+2017-04-28 11:57:01,116 [JFinal-Scanner] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=org.snaker.jfinal.access.JfinalAccess][clazz=org.snaker.jfinal.access.JfinalAccess]
+2017-04-28 11:57:01,121 [JFinal-Scanner] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=org.snaker.jfinal.access.JfinalTransactionInterceptor][object=org.snaker.jfinal.access.JfinalTransactionInterceptor@2d65ca94]
+2017-04-28 11:57:01,122 [JFinal-Scanner] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=org.snaker.engine.impl.JuelExpression][clazz=org.snaker.engine.impl.JuelExpression]
+2017-04-28 11:57:01,128 [JFinal-Scanner] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=com.jfaker.framework.flow.CustomAccessStrategy][clazz=com.jfaker.framework.flow.CustomAccessStrategy]
+2017-04-28 11:57:01,129 [JFinal-Scanner] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=task][clazz=com.jfaker.framework.flow.ExtTaskParser]
+2017-04-28 11:57:01,132 [JFinal-Scanner] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=start][clazz=org.snaker.engine.parser.impl.StartParser]
+2017-04-28 11:57:01,132 [JFinal-Scanner] WARN  [org.snaker.engine.cfg.Configuration] - Duplicate name is:task
+2017-04-28 11:57:01,133 [JFinal-Scanner] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=custom][clazz=org.snaker.engine.parser.impl.CustomParser]
+2017-04-28 11:57:01,133 [JFinal-Scanner] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=decision][clazz=org.snaker.engine.parser.impl.DecisionParser]
+2017-04-28 11:57:01,134 [JFinal-Scanner] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=subprocess][clazz=org.snaker.engine.parser.impl.SubProcessParser]
+2017-04-28 11:57:01,134 [JFinal-Scanner] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=fork][clazz=org.snaker.engine.parser.impl.ForkParser]
+2017-04-28 11:57:01,135 [JFinal-Scanner] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=join][clazz=org.snaker.engine.parser.impl.JoinParser]
+2017-04-28 11:57:01,135 [JFinal-Scanner] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=end][clazz=org.snaker.engine.parser.impl.EndParser]
+2017-04-28 11:57:01,205 [JFinal-Scanner] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=org.snaker.engine.core.ManagerService][object=org.snaker.engine.core.ManagerService$$EnhancerByCGLIB$$d1c83547@3327d4d9]
+2017-04-28 11:57:01,222 [JFinal-Scanner] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=org.snaker.engine.core.ProcessService][object=org.snaker.engine.core.ProcessService$$EnhancerByCGLIB$$d5d05991@4d8b7f9a]
+2017-04-28 11:57:01,239 [JFinal-Scanner] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=org.snaker.engine.core.QueryService][object=org.snaker.engine.core.QueryService$$EnhancerByCGLIB$$3fdae24e@26a88765]
+2017-04-28 11:57:01,255 [JFinal-Scanner] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=org.snaker.engine.core.TaskService][object=org.snaker.engine.core.TaskService$$EnhancerByCGLIB$$3c93c371@463b7f4e]
+2017-04-28 11:57:01,265 [JFinal-Scanner] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=org.snaker.engine.core.OrderService][object=org.snaker.engine.core.OrderService$$EnhancerByCGLIB$$fa6a6a6c@77cab87f]
+2017-04-28 11:57:01,281 [JFinal-Scanner] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=org.snaker.engine.core.SnakerEngineImpl][object=org.snaker.engine.core.SnakerEngineImpl$$EnhancerByCGLIB$$bce165cb@1c18a79e]
+2017-04-28 11:57:01,282 [JFinal-Scanner] INFO  [org.snaker.engine.cfg.Configuration] - SnakerEngine be found:class org.snaker.engine.core.SnakerEngineImpl$$EnhancerByCGLIB$$bce165cb
+2017-04-28 11:57:26,146 [qtp2066473405-22] WARN  [com.jfinal.core.ActionHandler] - 404 Action Not Found: /smartOA/oaHome
+2017-04-28 11:57:32,016 [qtp2066473405-26] WARN  [com.jfinal.core.ActionHandler] - 404 Action Not Found: /smartOA/oaHome
+2017-04-28 11:57:39,954 [main] INFO  [org.eclipse.jetty.server.Server] - jetty-8.y.z-SNAPSHOT
+2017-04-28 11:57:40,501 [main] INFO  [org.eclipse.jetty.server.handler.ContextHandler] - started o.e.j.w.WebAppContext{/smartOA,file:/C:/workspace/SmartOA-web/WebContent/}
+2017-04-28 11:57:40,501 [main] INFO  [org.eclipse.jetty.server.handler.ContextHandler] - started o.e.j.w.WebAppContext{/smartOA,file:/C:/workspace/SmartOA-web/WebContent/}
+2017-04-28 11:57:40,501 [main] INFO  [/smartOA] - Initializing Shiro environment
+2017-04-28 11:57:40,501 [main] INFO  [org.apache.shiro.web.env.EnvironmentLoader] - Starting Shiro environment initialization.
+2017-04-28 11:57:40,782 [main] INFO  [org.apache.shiro.cache.ehcache.EhCacheManager] - Cache with name 'myRealm.authorizationCache' does not yet exist.  Creating now.
+2017-04-28 11:57:40,782 [main] INFO  [org.apache.shiro.cache.ehcache.EhCacheManager] - Added EhCache named [myRealm.authorizationCache]
+2017-04-28 11:57:40,782 [main] INFO  [org.apache.shiro.config.IniSecurityManagerFactory] - Realms have been explicitly set on the SecurityManager instance - auto-setting of realms will not occur.
+2017-04-28 11:57:40,798 [main] INFO  [org.apache.shiro.web.env.EnvironmentLoader] - Shiro environment initialized in 297 ms.
+2017-04-28 11:57:40,798 [main] INFO  [org.eclipse.jetty.server.handler.ContextHandler] - started o.e.j.w.WebAppContext{/smartOA,file:/C:/workspace/SmartOA-web/WebContent/}
+2017-04-28 11:57:40,830 [main] INFO  [com.mchange.v2.log.MLog] - MLog clients using log4j logging.
+2017-04-28 11:57:40,877 [main] INFO  [com.mchange.v2.c3p0.C3P0Registry] - Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2017-04-28 11:57:40,892 [main] INFO  [com.jfaker.app.ScriptsPlugin] - scripts running......
+2017-04-28 11:57:40,939 [main] INFO  [com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource] - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 2ue7sk9n1dl20z171u54m|716de067, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 2ue7sk9n1dl20z171u54m|716de067, idleConnectionTestPeriod -> 0, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://localhost:3306/snaker?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 20, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 100, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2017-04-28 11:57:41,127 [main] WARN  [org.snaker.engine.helper.ConfigHelper] - No properties file found in the classpath by filename snaker.properties
+2017-04-28 11:57:41,189 [main] INFO  [com.jfaker.app.ScriptsPlugin] - script has completed execution.skip this step
+2017-04-28 11:57:41,189 [main] INFO  [org.snaker.engine.cfg.Configuration] - SnakerEngine start......
+2017-04-28 11:57:41,205 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=org.snaker.jfinal.access.JfinalAccess][clazz=org.snaker.jfinal.access.JfinalAccess]
+2017-04-28 11:57:41,205 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=org.snaker.jfinal.access.JfinalTransactionInterceptor][object=org.snaker.jfinal.access.JfinalTransactionInterceptor@f43ca90]
+2017-04-28 11:57:41,205 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=org.snaker.engine.impl.JuelExpression][clazz=org.snaker.engine.impl.JuelExpression]
+2017-04-28 11:57:41,220 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=com.jfaker.framework.flow.CustomAccessStrategy][clazz=com.jfaker.framework.flow.CustomAccessStrategy]
+2017-04-28 11:57:41,220 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=task][clazz=com.jfaker.framework.flow.ExtTaskParser]
+2017-04-28 11:57:41,220 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=start][clazz=org.snaker.engine.parser.impl.StartParser]
+2017-04-28 11:57:41,220 [main] WARN  [org.snaker.engine.cfg.Configuration] - Duplicate name is:task
+2017-04-28 11:57:41,220 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=custom][clazz=org.snaker.engine.parser.impl.CustomParser]
+2017-04-28 11:57:41,220 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=decision][clazz=org.snaker.engine.parser.impl.DecisionParser]
+2017-04-28 11:57:41,220 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=subprocess][clazz=org.snaker.engine.parser.impl.SubProcessParser]
+2017-04-28 11:57:41,220 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=fork][clazz=org.snaker.engine.parser.impl.ForkParser]
+2017-04-28 11:57:41,220 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=join][clazz=org.snaker.engine.parser.impl.JoinParser]
+2017-04-28 11:57:41,220 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=end][clazz=org.snaker.engine.parser.impl.EndParser]
+2017-04-28 11:57:41,298 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=org.snaker.engine.core.ManagerService][object=org.snaker.engine.core.ManagerService$$EnhancerByCGLIB$$b122f232@4670e434]
+2017-04-28 11:57:41,314 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=org.snaker.engine.core.ProcessService][object=org.snaker.engine.core.ProcessService$$EnhancerByCGLIB$$b52b167c@432b083c]
+2017-04-28 11:57:41,345 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=org.snaker.engine.core.QueryService][object=org.snaker.engine.core.QueryService$$EnhancerByCGLIB$$1f359f39@215ab1bb]
+2017-04-28 11:57:41,361 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=org.snaker.engine.core.TaskService][object=org.snaker.engine.core.TaskService$$EnhancerByCGLIB$$1bee805c@7ab10eb]
+2017-04-28 11:57:41,361 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=org.snaker.engine.core.OrderService][object=org.snaker.engine.core.OrderService$$EnhancerByCGLIB$$d9c52757@2d2788d0]
+2017-04-28 11:57:41,392 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=org.snaker.engine.core.SnakerEngineImpl][object=org.snaker.engine.core.SnakerEngineImpl$$EnhancerByCGLIB$$9c3c22b6@453d2a6b]
+2017-04-28 11:57:41,392 [main] INFO  [org.snaker.engine.cfg.Configuration] - SnakerEngine be found:class org.snaker.engine.core.SnakerEngineImpl$$EnhancerByCGLIB$$9c3c22b6
+2017-04-28 11:57:41,517 [main] INFO  [org.eclipse.jetty.server.AbstractConnector] - Started SelectChannelConnector@0.0.0.0:8080
+2017-04-28 13:21:49,296 [main] INFO  [org.eclipse.jetty.server.Server] - jetty-8.y.z-SNAPSHOT
+2017-04-28 13:21:49,843 [main] INFO  [org.eclipse.jetty.server.handler.ContextHandler] - started o.e.j.w.WebAppContext{/,file:/C:/workspace/SmartOA-web/WebContent/}
+2017-04-28 13:21:49,843 [main] INFO  [org.eclipse.jetty.server.handler.ContextHandler] - started o.e.j.w.WebAppContext{/,file:/C:/workspace/SmartOA-web/WebContent/}
+2017-04-28 13:21:49,844 [main] INFO  [/] - Initializing Shiro environment
+2017-04-28 13:21:49,844 [main] INFO  [org.apache.shiro.web.env.EnvironmentLoader] - Starting Shiro environment initialization.
+2017-04-28 13:21:50,142 [main] INFO  [org.apache.shiro.cache.ehcache.EhCacheManager] - Cache with name 'myRealm.authorizationCache' does not yet exist.  Creating now.
+2017-04-28 13:21:50,146 [main] INFO  [org.apache.shiro.cache.ehcache.EhCacheManager] - Added EhCache named [myRealm.authorizationCache]
+2017-04-28 13:21:50,147 [main] INFO  [org.apache.shiro.config.IniSecurityManagerFactory] - Realms have been explicitly set on the SecurityManager instance - auto-setting of realms will not occur.
+2017-04-28 13:21:50,152 [main] INFO  [org.apache.shiro.web.env.EnvironmentLoader] - Shiro environment initialized in 308 ms.
+2017-04-28 13:21:50,152 [main] INFO  [org.eclipse.jetty.server.handler.ContextHandler] - started o.e.j.w.WebAppContext{/,file:/C:/workspace/SmartOA-web/WebContent/}
+2017-04-28 13:21:50,190 [main] INFO  [com.mchange.v2.log.MLog] - MLog clients using log4j logging.
+2017-04-28 13:21:50,239 [main] INFO  [com.mchange.v2.c3p0.C3P0Registry] - Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2017-04-28 13:21:50,261 [main] INFO  [com.jfaker.app.ScriptsPlugin] - scripts running......
+2017-04-28 13:21:50,290 [main] INFO  [com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource] - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 2ue7sk9n1do29301gfneyf|315b0333, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 2ue7sk9n1do29301gfneyf|315b0333, idleConnectionTestPeriod -> 0, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://localhost:3306/snaker?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 20, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 100, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2017-04-28 13:21:50,485 [main] WARN  [org.snaker.engine.helper.ConfigHelper] - No properties file found in the classpath by filename snaker.properties
+2017-04-28 13:21:50,490 [main] INFO  [com.jfaker.app.ScriptsPlugin] - script has completed execution.skip this step
+2017-04-28 13:21:50,502 [main] INFO  [org.snaker.engine.cfg.Configuration] - SnakerEngine start......
+2017-04-28 13:21:50,537 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=org.snaker.jfinal.access.JfinalAccess][clazz=org.snaker.jfinal.access.JfinalAccess]
+2017-04-28 13:21:50,543 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=org.snaker.jfinal.access.JfinalTransactionInterceptor][object=org.snaker.jfinal.access.JfinalTransactionInterceptor@2c8c7d6]
+2017-04-28 13:21:50,544 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=org.snaker.engine.impl.JuelExpression][clazz=org.snaker.engine.impl.JuelExpression]
+2017-04-28 13:21:50,552 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=com.jfaker.framework.flow.CustomAccessStrategy][clazz=com.jfaker.framework.flow.CustomAccessStrategy]
+2017-04-28 13:21:50,554 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=task][clazz=com.jfaker.framework.flow.ExtTaskParser]
+2017-04-28 13:21:50,558 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=start][clazz=org.snaker.engine.parser.impl.StartParser]
+2017-04-28 13:21:50,559 [main] WARN  [org.snaker.engine.cfg.Configuration] - Duplicate name is:task
+2017-04-28 13:21:50,559 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=custom][clazz=org.snaker.engine.parser.impl.CustomParser]
+2017-04-28 13:21:50,560 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=decision][clazz=org.snaker.engine.parser.impl.DecisionParser]
+2017-04-28 13:21:50,561 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=subprocess][clazz=org.snaker.engine.parser.impl.SubProcessParser]
+2017-04-28 13:21:50,562 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=fork][clazz=org.snaker.engine.parser.impl.ForkParser]
+2017-04-28 13:21:50,563 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=join][clazz=org.snaker.engine.parser.impl.JoinParser]
+2017-04-28 13:21:50,563 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=end][clazz=org.snaker.engine.parser.impl.EndParser]
+2017-04-28 13:21:50,639 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=org.snaker.engine.core.ManagerService][object=org.snaker.engine.core.ManagerService$$EnhancerByCGLIB$$5f1c1264@3e37165f]
+2017-04-28 13:21:50,659 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=org.snaker.engine.core.ProcessService][object=org.snaker.engine.core.ProcessService$$EnhancerByCGLIB$$632436ae@7befc208]
+2017-04-28 13:21:50,679 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=org.snaker.engine.core.QueryService][object=org.snaker.engine.core.QueryService$$EnhancerByCGLIB$$cd2ebf6b@2627cd63]
+2017-04-28 13:21:50,694 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=org.snaker.engine.core.TaskService][object=org.snaker.engine.core.TaskService$$EnhancerByCGLIB$$c9e7a08e@44f0853]
+2017-04-28 13:21:50,706 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=org.snaker.engine.core.OrderService][object=org.snaker.engine.core.OrderService$$EnhancerByCGLIB$$87be4789@572c4768]
+2017-04-28 13:21:50,719 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=org.snaker.engine.core.SnakerEngineImpl][object=org.snaker.engine.core.SnakerEngineImpl$$EnhancerByCGLIB$$4a3542e8@71b8b3bb]
+2017-04-28 13:21:50,719 [main] INFO  [org.snaker.engine.cfg.Configuration] - SnakerEngine be found:class org.snaker.engine.core.SnakerEngineImpl$$EnhancerByCGLIB$$4a3542e8
+2017-04-28 13:21:50,832 [main] INFO  [org.eclipse.jetty.server.AbstractConnector] - Started SelectChannelConnector@0.0.0.0:8080
+2017-04-28 13:21:53,113 [qtp2066473405-26] WARN  [com.jfinal.core.ActionHandler] - 404 Action Not Found: /smartOA/oaHome
+2017-04-28 13:23:53,264 [main] INFO  [org.eclipse.jetty.server.Server] - jetty-8.y.z-SNAPSHOT
+2017-04-28 13:23:53,811 [main] INFO  [org.eclipse.jetty.server.handler.ContextHandler] - started o.e.j.w.WebAppContext{/,file:/C:/workspace/SmartOA-web/WebContent/}
+2017-04-28 13:23:53,811 [main] INFO  [org.eclipse.jetty.server.handler.ContextHandler] - started o.e.j.w.WebAppContext{/,file:/C:/workspace/SmartOA-web/WebContent/}
+2017-04-28 13:23:53,811 [main] INFO  [/] - Initializing Shiro environment
+2017-04-28 13:23:53,812 [main] INFO  [org.apache.shiro.web.env.EnvironmentLoader] - Starting Shiro environment initialization.
+2017-04-28 13:23:54,129 [main] INFO  [org.apache.shiro.cache.ehcache.EhCacheManager] - Cache with name 'myRealm.authorizationCache' does not yet exist.  Creating now.
+2017-04-28 13:23:54,133 [main] INFO  [org.apache.shiro.cache.ehcache.EhCacheManager] - Added EhCache named [myRealm.authorizationCache]
+2017-04-28 13:23:54,134 [main] INFO  [org.apache.shiro.config.IniSecurityManagerFactory] - Realms have been explicitly set on the SecurityManager instance - auto-setting of realms will not occur.
+2017-04-28 13:23:54,139 [main] INFO  [org.apache.shiro.web.env.EnvironmentLoader] - Shiro environment initialized in 327 ms.
+2017-04-28 13:23:54,139 [main] INFO  [org.eclipse.jetty.server.handler.ContextHandler] - started o.e.j.w.WebAppContext{/,file:/C:/workspace/SmartOA-web/WebContent/}
+2017-04-28 13:23:54,171 [main] INFO  [com.mchange.v2.log.MLog] - MLog clients using log4j logging.
+2017-04-28 13:23:54,218 [main] INFO  [com.mchange.v2.c3p0.C3P0Registry] - Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2017-04-28 13:23:54,241 [main] INFO  [com.jfaker.app.ScriptsPlugin] - scripts running......
+2017-04-28 13:23:54,277 [main] INFO  [com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource] - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 2ue7sk9n1do4wqx1am4ggu|716de067, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 2ue7sk9n1do4wqx1am4ggu|716de067, idleConnectionTestPeriod -> 0, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://localhost:3306/snaker?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 20, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 100, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2017-04-28 13:23:54,487 [main] WARN  [org.snaker.engine.helper.ConfigHelper] - No properties file found in the classpath by filename snaker.properties
+2017-04-28 13:23:54,494 [main] INFO  [com.jfaker.app.ScriptsPlugin] - script has completed execution.skip this step
+2017-04-28 13:23:54,505 [main] INFO  [org.snaker.engine.cfg.Configuration] - SnakerEngine start......
+2017-04-28 13:23:54,524 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=org.snaker.jfinal.access.JfinalAccess][clazz=org.snaker.jfinal.access.JfinalAccess]
+2017-04-28 13:23:54,534 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=org.snaker.jfinal.access.JfinalTransactionInterceptor][object=org.snaker.jfinal.access.JfinalTransactionInterceptor@3f3a0212]
+2017-04-28 13:23:54,535 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=org.snaker.engine.impl.JuelExpression][clazz=org.snaker.engine.impl.JuelExpression]
+2017-04-28 13:23:54,549 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=com.jfaker.framework.flow.CustomAccessStrategy][clazz=com.jfaker.framework.flow.CustomAccessStrategy]
+2017-04-28 13:23:54,550 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=task][clazz=com.jfaker.framework.flow.ExtTaskParser]
+2017-04-28 13:23:54,554 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=start][clazz=org.snaker.engine.parser.impl.StartParser]
+2017-04-28 13:23:54,554 [main] WARN  [org.snaker.engine.cfg.Configuration] - Duplicate name is:task
+2017-04-28 13:23:54,555 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=custom][clazz=org.snaker.engine.parser.impl.CustomParser]
+2017-04-28 13:23:54,555 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=decision][clazz=org.snaker.engine.parser.impl.DecisionParser]
+2017-04-28 13:23:54,556 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=subprocess][clazz=org.snaker.engine.parser.impl.SubProcessParser]
+2017-04-28 13:23:54,557 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=fork][clazz=org.snaker.engine.parser.impl.ForkParser]
+2017-04-28 13:23:54,557 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=join][clazz=org.snaker.engine.parser.impl.JoinParser]
+2017-04-28 13:23:54,558 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=end][clazz=org.snaker.engine.parser.impl.EndParser]
+2017-04-28 13:23:54,630 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=org.snaker.engine.core.ManagerService][object=org.snaker.engine.core.ManagerService$$EnhancerByCGLIB$$d37d85ad@7619ed7e]
+2017-04-28 13:23:54,648 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=org.snaker.engine.core.ProcessService][object=org.snaker.engine.core.ProcessService$$EnhancerByCGLIB$$d785a9f7@4b4ed577]
+2017-04-28 13:23:54,669 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=org.snaker.engine.core.QueryService][object=org.snaker.engine.core.QueryService$$EnhancerByCGLIB$$419032b4@7befc208]
+2017-04-28 13:23:54,686 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=org.snaker.engine.core.TaskService][object=org.snaker.engine.core.TaskService$$EnhancerByCGLIB$$3e4913d7@5903c29b]
+2017-04-28 13:23:54,697 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=org.snaker.engine.core.OrderService][object=org.snaker.engine.core.OrderService$$EnhancerByCGLIB$$fc1fbad2@7affa6eb]
+2017-04-28 13:23:54,711 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=org.snaker.engine.core.SnakerEngineImpl][object=org.snaker.engine.core.SnakerEngineImpl$$EnhancerByCGLIB$$be96b631@55c79dfc]
+2017-04-28 13:23:54,711 [main] INFO  [org.snaker.engine.cfg.Configuration] - SnakerEngine be found:class org.snaker.engine.core.SnakerEngineImpl$$EnhancerByCGLIB$$be96b631
+2017-04-28 13:23:54,826 [main] INFO  [org.eclipse.jetty.server.AbstractConnector] - Started SelectChannelConnector@0.0.0.0:8080
+2017-04-28 13:58:56,233 [main] INFO  [org.eclipse.jetty.server.Server] - jetty-8.y.z-SNAPSHOT
+2017-04-28 13:58:56,789 [main] INFO  [org.eclipse.jetty.server.handler.ContextHandler] - started o.e.j.w.WebAppContext{/,file:/C:/workspace/SmartOA-web/WebContent/}
+2017-04-28 13:58:56,789 [main] INFO  [org.eclipse.jetty.server.handler.ContextHandler] - started o.e.j.w.WebAppContext{/,file:/C:/workspace/SmartOA-web/WebContent/}
+2017-04-28 13:58:56,789 [main] INFO  [/] - Initializing Shiro environment
+2017-04-28 13:58:56,790 [main] INFO  [org.apache.shiro.web.env.EnvironmentLoader] - Starting Shiro environment initialization.
+2017-04-28 13:58:57,070 [main] INFO  [org.apache.shiro.cache.ehcache.EhCacheManager] - Cache with name 'myRealm.authorizationCache' does not yet exist.  Creating now.
+2017-04-28 13:58:57,074 [main] INFO  [org.apache.shiro.cache.ehcache.EhCacheManager] - Added EhCache named [myRealm.authorizationCache]
+2017-04-28 13:58:57,075 [main] INFO  [org.apache.shiro.config.IniSecurityManagerFactory] - Realms have been explicitly set on the SecurityManager instance - auto-setting of realms will not occur.
+2017-04-28 13:58:57,080 [main] INFO  [org.apache.shiro.web.env.EnvironmentLoader] - Shiro environment initialized in 290 ms.
+2017-04-28 13:58:57,081 [main] INFO  [org.eclipse.jetty.server.handler.ContextHandler] - started o.e.j.w.WebAppContext{/,file:/C:/workspace/SmartOA-web/WebContent/}
+2017-04-28 13:58:57,115 [main] INFO  [com.mchange.v2.log.MLog] - MLog clients using log4j logging.
+2017-04-28 13:58:57,163 [main] INFO  [com.mchange.v2.c3p0.C3P0Registry] - Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2017-04-28 13:58:57,186 [main] INFO  [com.jfaker.app.ScriptsPlugin] - scripts running......
+2017-04-28 13:58:57,215 [main] INFO  [com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource] - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 2ue7sk9n1dpdze2ychgtq|3cecb67f, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 2ue7sk9n1dpdze2ychgtq|3cecb67f, idleConnectionTestPeriod -> 0, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://localhost:3306/snaker?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 20, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 100, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2017-04-28 13:58:57,437 [main] WARN  [org.snaker.engine.helper.ConfigHelper] - No properties file found in the classpath by filename snaker.properties
+2017-04-28 13:58:57,586 [main] INFO  [com.jfaker.app.ScriptsPlugin] - script has completed execution.skip this step
+2017-04-28 13:58:57,598 [main] INFO  [org.snaker.engine.cfg.Configuration] - SnakerEngine start......
+2017-04-28 13:58:57,614 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=org.snaker.jfinal.access.JfinalAccess][clazz=org.snaker.jfinal.access.JfinalAccess]
+2017-04-28 13:58:57,619 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=org.snaker.jfinal.access.JfinalTransactionInterceptor][object=org.snaker.jfinal.access.JfinalTransactionInterceptor@7c34151f]
+2017-04-28 13:58:57,619 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=org.snaker.engine.impl.JuelExpression][clazz=org.snaker.engine.impl.JuelExpression]
+2017-04-28 13:58:57,627 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=com.jfaker.framework.flow.CustomAccessStrategy][clazz=com.jfaker.framework.flow.CustomAccessStrategy]
+2017-04-28 13:58:57,629 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=task][clazz=com.jfaker.framework.flow.ExtTaskParser]
+2017-04-28 13:58:57,632 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=start][clazz=org.snaker.engine.parser.impl.StartParser]
+2017-04-28 13:58:57,632 [main] WARN  [org.snaker.engine.cfg.Configuration] - Duplicate name is:task
+2017-04-28 13:58:57,632 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=custom][clazz=org.snaker.engine.parser.impl.CustomParser]
+2017-04-28 13:58:57,633 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=decision][clazz=org.snaker.engine.parser.impl.DecisionParser]
+2017-04-28 13:58:57,634 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=subprocess][clazz=org.snaker.engine.parser.impl.SubProcessParser]
+2017-04-28 13:58:57,634 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=fork][clazz=org.snaker.engine.parser.impl.ForkParser]
+2017-04-28 13:58:57,635 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=join][clazz=org.snaker.engine.parser.impl.JoinParser]
+2017-04-28 13:58:57,635 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=end][clazz=org.snaker.engine.parser.impl.EndParser]
+2017-04-28 13:58:57,710 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=org.snaker.engine.core.ManagerService][object=org.snaker.engine.core.ManagerService$$EnhancerByCGLIB$$2bf1c7a5@4145b02f]
+2017-04-28 13:58:57,726 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=org.snaker.engine.core.ProcessService][object=org.snaker.engine.core.ProcessService$$EnhancerByCGLIB$$2ff9ebef@29de6817]
+2017-04-28 13:58:57,746 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=org.snaker.engine.core.QueryService][object=org.snaker.engine.core.QueryService$$EnhancerByCGLIB$$9a0474ac@6e9770a3]
+2017-04-28 13:58:57,761 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=org.snaker.engine.core.TaskService][object=org.snaker.engine.core.TaskService$$EnhancerByCGLIB$$96bd55cf@8a2023]
+2017-04-28 13:58:57,772 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=org.snaker.engine.core.OrderService][object=org.snaker.engine.core.OrderService$$EnhancerByCGLIB$$5493fcca@5c1a1ff9]
+2017-04-28 13:58:57,785 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=org.snaker.engine.core.SnakerEngineImpl][object=org.snaker.engine.core.SnakerEngineImpl$$EnhancerByCGLIB$$170af829@203727c5]
+2017-04-28 13:58:57,786 [main] INFO  [org.snaker.engine.cfg.Configuration] - SnakerEngine be found:class org.snaker.engine.core.SnakerEngineImpl$$EnhancerByCGLIB$$170af829
+2017-04-28 13:58:57,897 [main] INFO  [org.eclipse.jetty.server.AbstractConnector] - Started SelectChannelConnector@0.0.0.0:8080
+2017-04-28 14:04:44,780 [JFinal-Scanner] INFO  [/] - Cleaning up Shiro Environment
+2017-04-28 14:04:44,804 [JFinal-Scanner] INFO  [org.eclipse.jetty.servlet.listener.ELContextCleaner] - Clazz: class org.apache.shiro.web.servlet.ShiroHttpServletRequest loaded by WebAppClassLoader=800323830@2fb3f8f6
+2017-04-28 14:04:44,804 [JFinal-Scanner] INFO  [org.eclipse.jetty.servlet.listener.ELContextCleaner] - removed
+2017-04-28 14:04:44,805 [JFinal-Scanner] INFO  [org.eclipse.jetty.servlet.listener.ELContextCleaner] - Clazz: class org.apache.jasper.runtime.PageContextImpl loaded by WebAppClassLoader=800323830@2fb3f8f6
+2017-04-28 14:04:44,805 [JFinal-Scanner] INFO  [org.eclipse.jetty.servlet.listener.ELContextCleaner] - removed
+2017-04-28 14:04:44,805 [JFinal-Scanner] INFO  [org.eclipse.jetty.servlet.listener.ELContextCleaner] - javax.el.BeanELResolver purged
+2017-04-28 14:04:44,805 [JFinal-Scanner] INFO  [org.eclipse.jetty.server.handler.ContextHandler] - stopped o.e.j.w.WebAppContext{/,file:/C:/workspace/SmartOA-web/WebContent/}
+2017-04-28 14:04:47,959 [main] INFO  [org.eclipse.jetty.server.Server] - jetty-8.y.z-SNAPSHOT
+2017-04-28 14:04:48,579 [main] INFO  [org.eclipse.jetty.server.handler.ContextHandler] - started o.e.j.w.WebAppContext{/smartOA,file:/C:/workspace/SmartOA-web/WebContent/}
+2017-04-28 14:04:48,579 [main] INFO  [org.eclipse.jetty.server.handler.ContextHandler] - started o.e.j.w.WebAppContext{/smartOA,file:/C:/workspace/SmartOA-web/WebContent/}
+2017-04-28 14:04:48,579 [main] INFO  [/smartOA] - Initializing Shiro environment
+2017-04-28 14:04:48,580 [main] INFO  [org.apache.shiro.web.env.EnvironmentLoader] - Starting Shiro environment initialization.
+2017-04-28 14:04:48,927 [main] INFO  [org.apache.shiro.cache.ehcache.EhCacheManager] - Cache with name 'myRealm.authorizationCache' does not yet exist.  Creating now.
+2017-04-28 14:04:48,934 [main] INFO  [org.apache.shiro.cache.ehcache.EhCacheManager] - Added EhCache named [myRealm.authorizationCache]
+2017-04-28 14:04:48,935 [main] INFO  [org.apache.shiro.config.IniSecurityManagerFactory] - Realms have been explicitly set on the SecurityManager instance - auto-setting of realms will not occur.
+2017-04-28 14:04:48,943 [main] INFO  [org.apache.shiro.web.env.EnvironmentLoader] - Shiro environment initialized in 363 ms.
+2017-04-28 14:04:48,943 [main] INFO  [org.eclipse.jetty.server.handler.ContextHandler] - started o.e.j.w.WebAppContext{/smartOA,file:/C:/workspace/SmartOA-web/WebContent/}
+2017-04-28 14:04:48,998 [main] INFO  [com.mchange.v2.log.MLog] - MLog clients using log4j logging.
+2017-04-28 14:04:49,051 [main] INFO  [com.mchange.v2.c3p0.C3P0Registry] - Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2017-04-28 14:04:49,073 [main] INFO  [com.jfaker.app.ScriptsPlugin] - scripts running......
+2017-04-28 14:04:49,102 [main] INFO  [com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource] - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 2ue7sk9n1dpliwm1vaypcy|3cecb67f, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 2ue7sk9n1dpliwm1vaypcy|3cecb67f, idleConnectionTestPeriod -> 0, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://localhost:3306/snaker?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 20, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 100, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2017-04-28 14:04:49,294 [main] WARN  [org.snaker.engine.helper.ConfigHelper] - No properties file found in the classpath by filename snaker.properties
+2017-04-28 14:04:49,300 [main] INFO  [com.jfaker.app.ScriptsPlugin] - script has completed execution.skip this step
+2017-04-28 14:04:49,311 [main] INFO  [org.snaker.engine.cfg.Configuration] - SnakerEngine start......
+2017-04-28 14:04:49,347 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=org.snaker.jfinal.access.JfinalAccess][clazz=org.snaker.jfinal.access.JfinalAccess]
+2017-04-28 14:04:49,354 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=org.snaker.jfinal.access.JfinalTransactionInterceptor][object=org.snaker.jfinal.access.JfinalTransactionInterceptor@1aef4504]
+2017-04-28 14:04:49,354 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=org.snaker.engine.impl.JuelExpression][clazz=org.snaker.engine.impl.JuelExpression]
+2017-04-28 14:04:49,363 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=com.jfaker.framework.flow.CustomAccessStrategy][clazz=com.jfaker.framework.flow.CustomAccessStrategy]
+2017-04-28 14:04:49,364 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=task][clazz=com.jfaker.framework.flow.ExtTaskParser]
+2017-04-28 14:04:49,367 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=start][clazz=org.snaker.engine.parser.impl.StartParser]
+2017-04-28 14:04:49,368 [main] WARN  [org.snaker.engine.cfg.Configuration] - Duplicate name is:task
+2017-04-28 14:04:49,368 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=custom][clazz=org.snaker.engine.parser.impl.CustomParser]
+2017-04-28 14:04:49,368 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=decision][clazz=org.snaker.engine.parser.impl.DecisionParser]
+2017-04-28 14:04:49,369 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=subprocess][clazz=org.snaker.engine.parser.impl.SubProcessParser]
+2017-04-28 14:04:49,370 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=fork][clazz=org.snaker.engine.parser.impl.ForkParser]
+2017-04-28 14:04:49,370 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=join][clazz=org.snaker.engine.parser.impl.JoinParser]
+2017-04-28 14:04:49,371 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=end][clazz=org.snaker.engine.parser.impl.EndParser]
+2017-04-28 14:04:49,444 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=org.snaker.engine.core.ManagerService][object=org.snaker.engine.core.ManagerService$$EnhancerByCGLIB$$306af9d0@2182a70]
+2017-04-28 14:04:49,464 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=org.snaker.engine.core.ProcessService][object=org.snaker.engine.core.ProcessService$$EnhancerByCGLIB$$34731e1a@7619ed7e]
+2017-04-28 14:04:49,484 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=org.snaker.engine.core.QueryService][object=org.snaker.engine.core.QueryService$$EnhancerByCGLIB$$9e7da6d7@3e37165f]
+2017-04-28 14:04:49,502 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=org.snaker.engine.core.TaskService][object=org.snaker.engine.core.TaskService$$EnhancerByCGLIB$$9b3687fa@1e4bb369]
+2017-04-28 14:04:49,513 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=org.snaker.engine.core.OrderService][object=org.snaker.engine.core.OrderService$$EnhancerByCGLIB$$590d2ef5@41a8dfb3]
+2017-04-28 14:04:49,526 [main] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=org.snaker.engine.core.SnakerEngineImpl][object=org.snaker.engine.core.SnakerEngineImpl$$EnhancerByCGLIB$$1b842a54@5903c29b]
+2017-04-28 14:04:49,526 [main] INFO  [org.snaker.engine.cfg.Configuration] - SnakerEngine be found:class org.snaker.engine.core.SnakerEngineImpl$$EnhancerByCGLIB$$1b842a54
+2017-04-28 14:04:49,636 [main] INFO  [org.eclipse.jetty.server.AbstractConnector] - Started SelectChannelConnector@0.0.0.0:8080
+2017-04-28 15:34:22,003 [JFinal-Scanner] INFO  [/smartOA] - Cleaning up Shiro Environment
+2017-04-28 15:34:22,021 [JFinal-Scanner] INFO  [org.eclipse.jetty.servlet.listener.ELContextCleaner] - Clazz: class org.apache.shiro.web.servlet.ShiroHttpServletRequest loaded by WebAppClassLoader=453076530@1b016632
+2017-04-28 15:34:22,021 [JFinal-Scanner] INFO  [org.eclipse.jetty.servlet.listener.ELContextCleaner] - removed
+2017-04-28 15:34:22,021 [JFinal-Scanner] INFO  [org.eclipse.jetty.servlet.listener.ELContextCleaner] - Clazz: class org.apache.jasper.runtime.PageContextImpl loaded by WebAppClassLoader=453076530@1b016632
+2017-04-28 15:34:22,021 [JFinal-Scanner] INFO  [org.eclipse.jetty.servlet.listener.ELContextCleaner] - removed
+2017-04-28 15:34:22,021 [JFinal-Scanner] INFO  [org.eclipse.jetty.servlet.listener.ELContextCleaner] - javax.el.BeanELResolver purged
+2017-04-28 15:34:22,021 [JFinal-Scanner] INFO  [org.eclipse.jetty.server.handler.ContextHandler] - stopped o.e.j.w.WebAppContext{/smartOA,file:/C:/workspace/SmartOA-web/WebContent/}
+2017-04-28 15:34:22,443 [JFinal-Scanner] INFO  [org.eclipse.jetty.server.handler.ContextHandler] - started o.e.j.w.WebAppContext{/smartOA,file:/C:/workspace/SmartOA-web/WebContent/}
+2017-04-28 15:34:22,443 [JFinal-Scanner] INFO  [org.eclipse.jetty.server.handler.ContextHandler] - started o.e.j.w.WebAppContext{/smartOA,file:/C:/workspace/SmartOA-web/WebContent/}
+2017-04-28 15:34:22,443 [JFinal-Scanner] INFO  [/smartOA] - Initializing Shiro environment
+2017-04-28 15:34:22,443 [JFinal-Scanner] INFO  [org.apache.shiro.web.env.EnvironmentLoader] - Starting Shiro environment initialization.
+2017-04-28 15:34:22,630 [JFinal-Scanner] INFO  [org.apache.shiro.cache.ehcache.EhCacheManager] - Cache with name 'myRealm.authorizationCache' does not yet exist.  Creating now.
+2017-04-28 15:34:22,630 [JFinal-Scanner] INFO  [org.apache.shiro.cache.ehcache.EhCacheManager] - Added EhCache named [myRealm.authorizationCache]
+2017-04-28 15:34:22,630 [JFinal-Scanner] INFO  [org.apache.shiro.config.IniSecurityManagerFactory] - Realms have been explicitly set on the SecurityManager instance - auto-setting of realms will not occur.
+2017-04-28 15:34:22,646 [JFinal-Scanner] INFO  [org.apache.shiro.web.env.EnvironmentLoader] - Shiro environment initialized in 203 ms.
+2017-04-28 15:34:22,646 [JFinal-Scanner] INFO  [org.eclipse.jetty.server.handler.ContextHandler] - started o.e.j.w.WebAppContext{/smartOA,file:/C:/workspace/SmartOA-web/WebContent/}
+2017-04-28 15:34:22,693 [JFinal-Scanner] INFO  [com.mchange.v2.log.MLog] - MLog clients using log4j logging.
+2017-04-28 15:34:22,724 [JFinal-Scanner] INFO  [com.mchange.v2.c3p0.C3P0Registry] - Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2017-04-28 15:34:22,740 [JFinal-Scanner] INFO  [com.jfaker.app.ScriptsPlugin] - scripts running......
+2017-04-28 15:34:22,771 [JFinal-Scanner] INFO  [com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource] - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 2ue7sk9n1dssp9x10qgftw|27c3b246, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 2ue7sk9n1dssp9x10qgftw|27c3b246, idleConnectionTestPeriod -> 0, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://localhost:3306/snaker?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 20, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 100, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2017-04-28 15:34:22,912 [JFinal-Scanner] WARN  [org.snaker.engine.helper.ConfigHelper] - No properties file found in the classpath by filename snaker.properties
+2017-04-28 15:34:22,927 [JFinal-Scanner] INFO  [com.jfaker.app.ScriptsPlugin] - script has completed execution.skip this step
+2017-04-28 15:34:22,943 [JFinal-Scanner] INFO  [org.snaker.engine.cfg.Configuration] - SnakerEngine start......
+2017-04-28 15:34:22,959 [JFinal-Scanner] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=org.snaker.jfinal.access.JfinalAccess][clazz=org.snaker.jfinal.access.JfinalAccess]
+2017-04-28 15:34:22,959 [JFinal-Scanner] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=org.snaker.jfinal.access.JfinalTransactionInterceptor][object=org.snaker.jfinal.access.JfinalTransactionInterceptor@7c3a6be9]
+2017-04-28 15:34:22,959 [JFinal-Scanner] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=org.snaker.engine.impl.JuelExpression][clazz=org.snaker.engine.impl.JuelExpression]
+2017-04-28 15:34:22,974 [JFinal-Scanner] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=com.jfaker.framework.flow.CustomAccessStrategy][clazz=com.jfaker.framework.flow.CustomAccessStrategy]
+2017-04-28 15:34:22,974 [JFinal-Scanner] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=task][clazz=com.jfaker.framework.flow.ExtTaskParser]
+2017-04-28 15:34:22,974 [JFinal-Scanner] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=start][clazz=org.snaker.engine.parser.impl.StartParser]
+2017-04-28 15:34:22,974 [JFinal-Scanner] WARN  [org.snaker.engine.cfg.Configuration] - Duplicate name is:task
+2017-04-28 15:34:22,974 [JFinal-Scanner] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=custom][clazz=org.snaker.engine.parser.impl.CustomParser]
+2017-04-28 15:34:22,974 [JFinal-Scanner] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=decision][clazz=org.snaker.engine.parser.impl.DecisionParser]
+2017-04-28 15:34:22,974 [JFinal-Scanner] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=subprocess][clazz=org.snaker.engine.parser.impl.SubProcessParser]
+2017-04-28 15:34:22,974 [JFinal-Scanner] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=fork][clazz=org.snaker.engine.parser.impl.ForkParser]
+2017-04-28 15:34:22,974 [JFinal-Scanner] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=join][clazz=org.snaker.engine.parser.impl.JoinParser]
+2017-04-28 15:34:22,974 [JFinal-Scanner] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=end][clazz=org.snaker.engine.parser.impl.EndParser]
+2017-04-28 15:34:23,052 [JFinal-Scanner] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=org.snaker.engine.core.ManagerService][object=org.snaker.engine.core.ManagerService$$EnhancerByCGLIB$$dc44ad5b@58c5601f]
+2017-04-28 15:34:23,069 [JFinal-Scanner] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=org.snaker.engine.core.ProcessService][object=org.snaker.engine.core.ProcessService$$EnhancerByCGLIB$$e04cd1a5@7585382d]
+2017-04-28 15:34:23,085 [JFinal-Scanner] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=org.snaker.engine.core.QueryService][object=org.snaker.engine.core.QueryService$$EnhancerByCGLIB$$4a575a62@a26770]
+2017-04-28 15:34:23,100 [JFinal-Scanner] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=org.snaker.engine.core.TaskService][object=org.snaker.engine.core.TaskService$$EnhancerByCGLIB$$47103b85@18b3a48f]
+2017-04-28 15:34:23,116 [JFinal-Scanner] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=org.snaker.engine.core.OrderService][object=org.snaker.engine.core.OrderService$$EnhancerByCGLIB$$4e6e280@77b9bed2]
+2017-04-28 15:34:23,131 [JFinal-Scanner] INFO  [org.snaker.engine.core.ServiceContext] - put new instance[name=org.snaker.engine.core.SnakerEngineImpl][object=org.snaker.engine.core.SnakerEngineImpl$$EnhancerByCGLIB$$c75ddddf@4b3cf45b]
+2017-04-28 15:34:23,131 [JFinal-Scanner] INFO  [org.snaker.engine.cfg.Configuration] - SnakerEngine be found:class org.snaker.engine.core.SnakerEngineImpl$$EnhancerByCGLIB$$c75ddddf

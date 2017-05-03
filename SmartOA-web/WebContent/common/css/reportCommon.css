@@ -1,0 +1,87 @@
+.resourceWarehouse-100Height {
+	height: 100%;
+}
+
+#reportCommon-container {
+	margin-top: 0px	;
+	height: 100%;
+ }
+#resourceWarehouse-lightModemManage:hover {
+	background-color: #0a7be2;
+}
+span:hover {
+	background-color: #FFFFF;
+}
+#resourceWarehouse-MbhManage:hover {
+	background-color: #20AF3A;
+}
+.resourceWarehouse-btn {
+	text-align: center;
+}
+.resourceWarehouse-btn span {
+	display: block;
+}
+#resourceWarehouse-btn-text{
+	display: block;
+	text-align: center;
+}
+ 
+ /* radio按钮 */
+.resourceWarehouse-radioGroup {
+	position: absolute;
+    z-index: 9999;
+}
+.radio-inline  {
+	margin-right: 10px;
+	font-weight: bold;
+ }
+ ul {
+ 	list-style-type: none;
+ 	margin:0px;
+ 	padding:0px;
+ }
+
+/* 面板样式 */
+#reportCommon-leftPanels {
+	margin-top: 2px;
+	height: 560px;
+	width:15%;
+    padding: 0px 0px 0px 0px;
+	float:left;
+}
+#reportCommon-formPanels {
+	width:100%;
+}
+#reportCommon-IframePanels {
+	margin-top: 2px;
+	height: 500px;
+	width:100%;
+
+}
+.reportCommon-panelHeader-container {
+	height: 15%;
+}
+#reportCommon-rightPanels {
+	margin-top: 20px;
+	height: 100%;
+	padding-left: 0px;
+	padding-right: 0px;
+	width:100%;
+	float:right;
+}
+.reportCommon-panelHeader {
+	font-size: 15px;
+	padding: 0px 0px 1px 1px;
+	margin:1px 1px 1px 1px;
+	background-color: #f5f5f5;
+}
+.resourceWarehouse-headerIcon {
+	border-left: 3px solid #096ECA;
+	margin-right:8px;
+}
+.resourceWarehouse-panel {	
+	border: 1px solid #d0d0d0;
+	border-radius: 5px;
+}
+
+

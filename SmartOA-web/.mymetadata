@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="SmartOA-web"
+  id="myeclipse.1493295935020"
+  context-root="/SmartOA-web"
+  j2ee-spec="5.0"
+  archive="SmartOA-web.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebContent" />
+  </attributes>
+</project-module>
+

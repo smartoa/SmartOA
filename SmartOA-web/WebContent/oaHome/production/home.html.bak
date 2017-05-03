@@ -1,0 +1,94 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=9">
+<title>魔百和管理</title>
+<jsp:include page="/common/bs_an.jsp"></jsp:include>
+<jsp:include page="/common/bs_fish_h2.jsp"></jsp:include>
+
+</head>
+
+<body>
+
+	<div class="panel panel-default">
+		<div class="panel-heading glyphicon glyphicon-book">
+			<span class="panel-title">魔百和管理</span>
+		</div>
+		<div class="panel-body">
+		
+	    <form id = "MoboxConditionForm" role="form" style="padding:5px;">
+	    
+	    <div class = "row">
+				<div class="form-group col-md-4 has-primary form-inline">
+					<label class="progress-label col-md-4" for="SN">SN</label> 
+					<input id="SN" class="form-control col-md-8" name="SN" style="width:65%;">
+				</div>
+				<div class="form-group col-md-4 has-primary form-inline">
+				<label class="progress-label col-md-4" for="MANUFACTURER_CODE">厂商</label> 
+				<select
+				name="MANUFACTURER_CODE" id="MANUFACTURER_CODE"  onchange="changeManu()"
+				class="form-control col-md-8" style="width:65%;">
+				<option value="" selected="selected"></option>
+				</select>
+				</div>
+				<div class="form-group col-md-4 has-primary form-inline">
+				<label class="progress-label col-md-4" for="EQUIPMENT_TYPE">型号</label> 
+				<select
+				name="EQUIPMENT_TYPE" id="EQUIPMENT_TYPE"
+				class=" form-control col-md-8" style="width:65%;">
+				<option value="" selected="selected"></option>
+				</select>
+				</div>
+								
+		</div><!--end row-->
+		
+			<div class = "row">
+			<div class=" form-group col-md-4 has-primary form-inline">
+			<label class="progress-label col-md-4" for="STATE">状态</label> <select
+				name="STATE" id="STATE" class="form-control col-md-8" style="width:65%;">
+				<option value="" selected="selected"></option>
+			</select>
+			</div>
+			<div class="form-group col-md-4 has-primary form-inline">
+			<label class="progress-label col-md-4" for="DEPOT_CODE">仓库</label> 
+			<select
+			name="DEPOT_CODE" id="DEPOT_CODE" class="form-control col-md-8" style="width:65%;">
+			<option value="" selected="selected"></option>
+			</select>
+			</div>
+			
+			<div class=" col-md-4 ">
+			 <div class = "pull-right">
+			<button id="search" class="btn btn-success" type="button">查询</button>
+			<button id="export" class="btn btn-info " type="button">导出</button>
+			<button id="clear" class="btn btn-warning " type="button">清空</button>
+			</div>
+			</div>		
+		</div><!--end row-->
+		
+		
+		</form>
+		
+		
+	
+		</div>
+		
+		</div>
+		
+		<div class="panel panel-default">
+		<!--<div class="panel-heading glyphicon glyphicon-list">
+			<span class="panel-title">魔百和列表</span>
+		</div>-->
+		<div class="panel-body">
+			<div id="moboxGrid"></div>
+		</div>
+		</div>
+
+</body>
+
+<script type="text/javascript" src="terminal/mobox/pmMobox/js/pmMobox.js"></script>
+</html>
